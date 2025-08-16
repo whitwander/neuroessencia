@@ -29,7 +29,7 @@ export default function Home() {
               height={200}
             />
             <div className="bg- p-10 flex flex-col w-100 border rounded border-gray-400 gap-5 shadow-xl">
-              <h1 className="font-semibold text-2xl text-titulo">Crianças</h1>
+              <h1 className="font-bold text-2xl text-titulo">CRIANÇAS</h1>
               <p className="text-xl text-texto">dificuldades escolares, atenção.</p>
             </div>
             <Image
@@ -39,7 +39,7 @@ export default function Home() {
               height={200}
             />
             <div className="bg- p-10 flex flex-col w-100 border rounded border-gray-400 gap-5 shadow-xl">
-              <h1 className="font-semibold text-2xl text-titulo">Adolescentes</h1>
+              <h1 className="font-bold text-2xl text-titulo">ADOLESCENTES</h1>
               <p className="text-xl text-texto">desempenho acadêmico, comportamento.</p>
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function Home() {
               height={200}
             />
             <div className="bg- p-10 flex flex-col w-100 border rounded border-gray-400 gap-5 shadow-xl">
-              <h1 className="font-semibold text-2xl text-titulo">Adultos</h1>
+              <h1 className="font-bold text-2xl text-titulo">ADULTOS</h1>
               <p className="text-xl text-texto">memória, ansiedade, concentração.</p>
             </div>
             <Image
@@ -61,27 +61,49 @@ export default function Home() {
               height={200}
             />
             <div className="bg- p-10 flex flex-col w-100 border rounded border-gray-400 gap-5 shadow-xl">
-              <h1 className="font-semibold text-2xl text-titulo">Idosos</h1>
+              <h1 className="font-bold text-2xl text-titulo">IDOSOS</h1>
               <p className="text-xl text-texto">avaliação cognitiva, suspeita de demência.</p>
             </div>
           </div>
         </div>
       </div>
       <div className="flex flex-col gap-5 mt-10 mb-10">
-        <h1 className="text-4xl mb-10">O que investigamos?</h1>
-        <div className="bg-titulo text-white p-4 rounded-xl shadow-xl">
-          <p className="text-xl">- TEA, TDAH, TOD, Transtornos de aprendizagem (Dislexia, Discalculia, Disgrafia).</p>
-        </div>
-        <div className="bg-titulo text-white p-4 rounded-xl shadow-xl">
-          <p className="text-xl">- Deficiência Intelectual / Atraso Global do Desenvolvimento, Declínios Cognitivos.</p>
-        </div>
-        <div className="bg-titulo text-white p-4 rounded-xl shadow-xl">
-          <p className="text-xl">- Demências (ex.: Alzheimer), Depressão, Ansiedade, Altas habilidades / Superdotação.</p>
-        </div>
+        <h1 className="text-4xl mb-5">O que investigamos?</h1>
+
+        <ul className="list-disc list-inside text-xl space-y-4">
+          <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
+            Transtorno do neurodesenvolvimento: TEA, TDAH, TOD.
+          </li>
+          <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
+            Altas habilidades, Superdotação.
+          </li>
+          <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
+            Transtorno da aprendizagem.
+          </li>
+          <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
+            Dislexia.
+          </li>
+          <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
+            Discalculia.
+          </li>
+          <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
+            Disgrafia.
+          </li>
+          <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
+            Deficiência Intelectual, atraso global do desenvolvimento, declínio cognitivo.
+          </li>
+          <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
+            Alzheimer e outras demências.
+          </li>
+          <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
+            Ansiedade e Depressão.
+          </li>
+        </ul>
       </div>
-      <div className="bg-titulo w-full h-screen flex flex-col">
-        <div className="bg-white w-3xl self-center mt-20 p-15 shadow-2xl rounded">
-          <h1 className="text-2xl font-extrabold text-titulo mb-8">COMO FUNCIONA O PROCESSO:</h1>
+
+      <div className="bg-titulo w-full flex flex-col">
+        <div className="bg-white w-3xl self-center mt-20 mb-20 p-15 shadow-2xl rounded">
+          <h1 className="text-3xl font-extrabold text-titulo mb-8">COMO FUNCIONA O PROCESSO:</h1>
           <div className="flex flex-col gap-2 text-texto text-lg">
             <p><strong>Etapa 1:</strong> Entrevista inicial – levantamento de história, queixas e objetivos.</p>
             <p><strong>Etapa 2:</strong> Aplicação de testes – 1 a 3 sessões presenciais ou online.</p>
