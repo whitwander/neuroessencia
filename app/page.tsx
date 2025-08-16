@@ -18,8 +18,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div>
-        <h1 className="text-4xl mt-10 mb-10">Pra quem é indicada?</h1>
+      <div className="w-full flex flex-col gap-5 mt-10 items-center">
+        <h1 className="text-4xl mt-10 mb-10 text-titulo font-semibold">Pra quem é indicada?</h1>
         <div className="flex flex-col gap-8">
           <div className="flex flex-row gap-8">
             <Image
@@ -67,38 +67,40 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-5 mt-10 mb-10">
-        <h1 className="text-4xl mb-5">O que investigamos?</h1>
+      <div className="flex w-full flex-col items-center gap-5 mt-10 mb-10">
+        <div>
+          <h1 className="text-4xl mt-10 mb-10 text-titulo font-semibold text-center">O que investigamos?</h1>
 
-        <ul className="list-disc list-inside text-xl space-y-4">
-          <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
-            Transtorno do neurodesenvolvimento: TEA, TDAH, TOD.
-          </li>
-          <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
-            Altas habilidades, Superdotação.
-          </li>
-          <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
-            Transtorno da aprendizagem.
-          </li>
-          <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
-            Dislexia.
-          </li>
-          <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
-            Discalculia.
-          </li>
-          <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
-            Disgrafia.
-          </li>
-          <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
-            Deficiência Intelectual, atraso global do desenvolvimento, declínio cognitivo.
-          </li>
-          <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
-            Alzheimer e outras demências.
-          </li>
-          <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
-            Ansiedade e Depressão.
-          </li>
-        </ul>
+          <ul className="list-disc list-inside text-xl space-y-4">
+            <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
+              Transtorno do neurodesenvolvimento: TEA, TDAH, TOD.
+            </li>
+            <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
+              Altas habilidades, Superdotação.
+            </li>
+            <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
+              Transtorno da aprendizagem.
+            </li>
+            <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
+              Dislexia.
+            </li>
+            <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
+              Discalculia.
+            </li>
+            <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
+              Disgrafia.
+            </li>
+            <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
+              Deficiência Intelectual, atraso global do desenvolvimento, declínio cognitivo.
+            </li>
+            <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
+              Alzheimer e outras demências.
+            </li>
+            <li className="bg-titulo text-white p-4 rounded-xl shadow-xl">
+              Ansiedade e Depressão.
+            </li>
+          </ul>
+        </div>
       </div>
 
       <div className="bg-titulo w-full flex flex-col">
