@@ -12,7 +12,7 @@
   --color-titulo: #1e5d5a;
   --color-botao: #4FAF9E;
   --color-texto: #333333;
-  --color-destaque: ##F7D9D0;
+  --color-destaque: #F7D9D0;
 }
 
 @media (prefers-color-scheme: dark) {
