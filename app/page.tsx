@@ -6,7 +6,7 @@ export default function Home() {
       <div className="pt-20 bg-fundo flex flex-col justify-center">
         <div className="text-titulo flex flex-col gap-6 mb-5 mt-2 lg:p-30 pb-30 lg:w-300 place-self-center">
           <h1 className='lg:text-6xl text-3xl font-bold text-center'>AVALIAR, COMPREENDER <br />E TRANSFORMAR</h1>
-          <h2 className='lg:text-3xl text-center w-100 lg:w-full text-texto font-medium'>Aqui, cada mente é cuidada com ciência, empatia e respeito à sua singularidade.</h2>
+          <h2 className='lg:text-3xl text-center lg:w-full text-texto font-medium'>Aqui, cada mente é cuidada com ciência, empatia e respeito à sua singularidade.</h2>
           <button className="bg-botao w-60 self-center text-white lg:w-150 p-2 rounded lg:mt-8 lg:text-xl hover:animate-pulse cursor-pointer">Quero saber mais</button>
         </div>
       </div>
