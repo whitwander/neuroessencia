@@ -5,16 +5,19 @@ export default function Home() {
     <div className="font-sans bg-fundo justify-items-center min-h-screen pb-20">
       <div className="pt-20 bg-fundo flex flex-col justify-center">
         <div className="text-titulo flex flex-col gap-6 mb-5 mt-2 lg:p-30 pb-30 lg:w-300 place-self-center">
-          <h1 className='lg:text-6xl text-3xl font-bold text-center'>COMPREENDER PARA <br />CUIDAR MELHOR</h1>
-          <h2 className='lg:text-3xl text-center w-100 lg:w-full text-texto font-medium'>Avaliação neuropsicológica especializada, fundamentada <br />na ciência e conduzida com empatia.</h2>
+          <h1 className='lg:text-6xl text-3xl font-bold text-center'>AVALIAR, COMPREENDER <br />E TRANSFORMAR</h1>
+          <h2 className='lg:text-3xl text-center w-100 lg:w-full text-texto font-medium'>Aqui, cada mente é cuidada com ciência, empatia e respeito à sua singularidade.</h2>
           <button className="bg-botao w-60 self-center text-white lg:w-150 p-2 rounded lg:mt-8 lg:text-xl hover:animate-pulse cursor-pointer">Quero saber mais</button>
         </div>
       </div>
       <div className="bg-titulo w-full">
         <div className="lg:w-300 py-20 place-self-center flex flex-col gap-10 justify-self-center lg:text-center">
-          <h1 className="lg:text-4xl text-3xl text-center text-white">O que é <span className="font-semibold">Avaliação Neuropsicológica</span>?</h1>
+          <h1 className="lg:text-4xl hidden lg:block text-3xl text-center text-white">O que é <span className="font-semibold">Avaliação Neuropsicológica</span>?</h1>
           <div className="rounded border shadow-2xl border-titulo">
-            <p className="p-15 text-white lg:text-2xl text-lg">Na NeuroEssência, acreditamos que cada mente é única e merece uma avaliação que vá além dos sintomas, alcançando a essência do indivíduo. Realizamos avaliações neuropsicológicas especializadas, fundamentadas na ciência e conduzidas com empatia e respeito. Nosso objetivo é mapear o funcionamento cognitivo, emocional e comportamental para orientar tratamentos, reabilitações, intervenções e apoiar o autoconhecimento.</p>
+            <div className="p-15">
+              <h1 className="lg:text-4xl mb-5 text-3xl text-center lg:hidden text-white">O que é <span className="font-semibold">Avaliação Neuropsicológica</span>?</h1>
+              <p className="text-white lg:text-2xl text-lg ">Na NeuroEssência, acreditamos que cada mente é única e merece uma avaliação que vá além dos sintomas, alcançando a essência do indivíduo. Realizamos avaliações neuropsicológicas especializadas, fundamentadas na ciência e conduzidas com empatia e respeito. Nosso objetivo é mapear o funcionamento cognitivo, emocional e comportamental para orientar tratamentos, reabilitações, intervenções e apoiar o autoconhecimento.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -120,8 +123,7 @@ export default function Home() {
             <p><strong>Etapa 3:</strong> Análise técnica – integração dos dados.</p>
             <p><strong>Etapa 4:</strong> Devolutiva – apresentação dos resultados e orientações.</p>
             <p className="mb-4"><strong>Etapa 5:</strong> Laudo final – documento técnico com recomendações.</p>
-            <p>Duração média: 4 a 5 encontros.</p>
-            <p>Formato: presencial (cidade) ou online.</p>
+            <p>Formato: presencial (Contagem - MG) ou online.</p>
             <button className="bg-botao text-white lg:w-150 p-2 rounded mt-8 text-xl hover:animate-pulse cursor-pointer">Agendar agora</button>
           </div>
         </div>
