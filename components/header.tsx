@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Header() {
     return (
-        <div className="bg-white w-full flex flex-row p-2 lg:justify-around justify-center align-middle">
+        <div className="bg-headercor w-full flex flex-row p-2 lg:justify-around justify-center align-middle">
             <div className="relative w-full max-w-sm">
                 <Image
                     src="/logo.jpeg"

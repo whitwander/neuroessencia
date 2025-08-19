@@ -6,6 +6,7 @@
   --color-botao: #4FAF9E;
   --color-texto: #333333;
   --color-destaque: #F7D9D0;
+  --color-headercor: #fef7f1;
 }
 
 @media (prefers-color-scheme: dark) {
