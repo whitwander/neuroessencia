@@ -33,7 +33,7 @@ export default function Home() {
 								className="object-cover rounded"
 							/>
 						</div>
-						<div className="bg- p-10 flex flex-col w-100 border rounded border-gray-400 gap-5 shadow-xl">
+						<div className="p-10 flex flex-col lg:w-100 border rounded border-gray-400 gap-5 shadow-xl">
 							<h1 className="font-bold text-2xl text-titulo">CRIANÇAS</h1>
 							<p className="text-xl text-texto">dificuldades escolares, atenção.</p>
 						</div>
@@ -45,7 +45,7 @@ export default function Home() {
 								className="object-cover rounded"
 							/>
 						</div>
-						<div className="bg- p-10 flex flex-col w-100 border rounded border-gray-400 gap-5 shadow-xl">
+						<div className="p-10 flex w-full flex-col lg:w-100 border rounded border-gray-400 gap-5 shadow-xl">
 							<h1 className="font-bold text-2xl text-titulo">ADOLESCENTES</h1>
 							<p className="text-xl text-texto">desempenho acadêmico, comportamento.</p>
 						</div>
@@ -59,7 +59,7 @@ export default function Home() {
 								className="object-cover rounded"
 							/>
 						</div>
-						<div className="bg- p-10 flex flex-col w-100 border rounded border-gray-400 gap-5 shadow-xl">
+						<div className="p-10 flex flex-col lg:w-100 border rounded border-gray-400 gap-5 shadow-xl">
 							<h1 className="font-bold text-2xl text-titulo">ADULTOS</h1>
 							<p className="text-xl text-texto">memória, ansiedade, concentração.</p>
 						</div>
@@ -71,7 +71,7 @@ export default function Home() {
 								className="object-cover rounded"
 							/>
 						</div>
-						<div className="bg- p-10 flex flex-col w-100 border rounded border-gray-400 gap-5 shadow-xl">
+						<div className="p-10 flex flex-col lg:w-100 border rounded border-gray-400 gap-5 shadow-xl">
 							<h1 className="font-bold text-2xl text-titulo">IDOSOS</h1>
 							<p className="text-xl text-texto">avaliação cognitiva, suspeita de demência.</p>
 						</div>
@@ -124,7 +124,7 @@ export default function Home() {
 						<p><strong>Etapa 4:</strong> Devolutiva – apresentação dos resultados e orientações.</p>
 						<p className="mb-4"><strong>Etapa 5:</strong> Laudo final – documento técnico com recomendações.</p>
 						<p>Formato: presencial (Contagem - MG) ou online.</p>
-						<a href="https://wa.me/5531995356323" target="_blank" className="bg-botao text-white lg:w-150 p-2 rounded mt-8 text-xl hover:animate-pulse cursor-pointer">Agendar agora</a>
+						<a href="https://wa.me/5531995356323" target="_blank" className="bg-botao text-center text-white lg:w-150 p-2 rounded mt-8 text-xl hover:animate-pulse cursor-pointer">Agendar agora</a>
 					</div>
 				</div>
 			</div>
