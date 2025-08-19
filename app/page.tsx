@@ -90,16 +90,7 @@ export default function Home() {
 							Altas habilidades, Superdotação.
 						</li>
 						<li className="bg-titulo text-white p-4 rounded-xl shadow-xl w-90 lg:w-full font-semibold">
-							Transtorno da aprendizagem.
-						</li>
-						<li className="bg-titulo text-white p-4 rounded-xl shadow-xl w-90 lg:w-full font-semibold">
-							Dislexia.
-						</li>
-						<li className="bg-titulo text-white p-4 rounded-xl shadow-xl w-90 lg:w-full font-semibold">
-							Discalculia.
-						</li>
-						<li className="bg-titulo text-white p-4 rounded-xl shadow-xl w-90 lg:w-full font-semibold">
-							Disgrafia.
+							Transtorno da aprendizagem: Dislexia, Discalculia e Disgrafia.
 						</li>
 						<li className="bg-titulo text-white p-4 rounded-xl shadow-xl w-90 lg:w-full font-semibold">
 							Deficiência Intelectual, atraso global do desenvolvimento, declínio cognitivo.
