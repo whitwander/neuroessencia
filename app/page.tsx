@@ -7,7 +7,7 @@ export default function Home() {
 				<div className="text-titulo flex flex-col gap-6 mb-5 mt-2 lg:p-30 pb-30 lg:w-300 place-self-center">
 					<h1 className='lg:text-6xl px-10 text-3xl font-bold text-center'>AVALIAR, COMPREENDER <br />E TRANSFORMAR</h1>
 					<h2 className='lg:text-3xl px-10 text-center lg:w-full text-texto font-medium'>Aqui, cada mente é cuidada com ciência, empatia e respeito à sua singularidade.</h2>
-					<button className="bg-botao w-60 self-center text-white lg:w-150 p-2 rounded lg:mt-8 lg:text-xl hover:animate-pulse cursor-pointer">Quero saber mais</button>
+					<a href="https://wa.me/5531995356323" target="_blank" className="bg-botao w-60 self-center text-center text-white lg:w-150 p-2 rounded lg:mt-8 lg:text-xl hover:animate-pulse cursor-pointer">Quero saber mais</a>
 				</div>
 			</div>
 			<div className="bg-titulo w-full">
@@ -39,8 +39,8 @@ export default function Home() {
 						</div>
 						<div className="relative w-full lg:w-300 self-center items-center max-w-sm h-60">
 							<Image
-								src="/lapis.jpeg"
-								alt="Criança escolhendo cor do lápis"
+								src="/teen.jpg"
+								alt="Adolescente"
 								fill
 								className="object-cover rounded"
 							/>
@@ -53,8 +53,8 @@ export default function Home() {
 					<div className="flex lg:flex-row flex-col gap-8">
 						<div className="relative w-full lg:w-300 self-center max-w-sm h-60">
 							<Image
-								src="/lapis.jpeg"
-								alt="Criança escolhendo cor do lápis"
+								src="/adult.jpg"
+								alt="adulto sofrendo de ansiedade"
 								fill
 								className="object-cover rounded"
 							/>
@@ -65,8 +65,8 @@ export default function Home() {
 						</div>
 						<div className="relative w-full lg:w-300 self-center max-w-sm h-60">
 							<Image
-								src="/lapis.jpeg"
-								alt="Criança escolhendo cor do lápis"
+								src="/senior.jpg"
+								alt="Idoso descobrindo doença"
 								fill
 								className="object-cover rounded"
 							/>
@@ -124,7 +124,7 @@ export default function Home() {
 						<p><strong>Etapa 4:</strong> Devolutiva – apresentação dos resultados e orientações.</p>
 						<p className="mb-4"><strong>Etapa 5:</strong> Laudo final – documento técnico com recomendações.</p>
 						<p>Formato: presencial (Contagem - MG) ou online.</p>
-						<button className="bg-botao text-white lg:w-150 p-2 rounded mt-8 text-xl hover:animate-pulse cursor-pointer">Agendar agora</button>
+						<a href="https://wa.me/5531995356323" target="_blank" className="bg-botao text-white lg:w-150 p-2 rounded mt-8 text-xl hover:animate-pulse cursor-pointer">Agendar agora</a>
 					</div>
 				</div>
 			</div>

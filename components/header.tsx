@@ -17,7 +17,7 @@ export default function Header() {
                 <a className='text-texto hover:text-destaque' href="#">Processo</a>
                 <a className='text-texto hover:text-destaque' href="#">Contato</a>
             </div>
-            <button className='hidden lg:block rounded bg-botao h-1px self-center p-2 hover:bg-titulo cursor-pointer hover:animate-pulse text-white text-lg lg:text-xl'>Agende sua avaliação</button>
+            <a href="https://wa.me/5531995356323" target="_blank" className='hidden lg:block rounded bg-botao h-1px self-center p-2 hover:bg-titulo cursor-pointer hover:animate-pulse text-white text-lg lg:text-xl'>Agende sua avaliação</a>
         </div>
     )
 }
